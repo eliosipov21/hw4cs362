@@ -2,7 +2,7 @@
 def volume_cube(x):
     if(x<0):
         return "error, input less than zero"
-    if(!(isinstance(x, int)) and !(isinstance(x, float))):
+    if(not(isinstance(x, int)) and not(isinstance(x, float))):
         return "error, input not an int"
     return pow(x, 3)
 
